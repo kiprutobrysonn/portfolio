@@ -4,7 +4,12 @@ import { socialMedia } from "@/data";
 import Image from "next/image";
 
 const Avatar = () => (
-  <Image className="p-1 w-8 h-8 rounded-lg origin-top-left rotate-12" src={Theuri} alt="Theuri" loading="lazy"/>
+  <Image
+    className="p-1 w-8 h-8 rounded-lg origin-top-left rotate-12"
+    src={Theuri}
+    alt="Theuri"
+    loading="lazy"
+  />
 );
 
 const Footer = () => {
@@ -39,7 +44,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="md:text-base text-sm md:font-normal font-light py-4">
-          © iamtheuri
+          &copy; bryson
         </p>
       </div>
     </footer>

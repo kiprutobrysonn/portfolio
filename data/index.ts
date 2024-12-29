@@ -1,4 +1,3 @@
-import MealOrderingApp from "../public/Meal-ordering-app.png";
 import QueenDeeWeddings from "../public/qd-weddings.webp";
 import LaravelName from "../public/laravelName.svg";
 import MaterialUi from "../public/material-ui.svg";
@@ -30,6 +29,7 @@ import GitHub from "../public/git.svg";
 import Grid from "../public/grid.svg";
 import Next from "../public/next.svg";
 import React from "../public/re.svg";
+import My from "../public/b5.svg";
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -119,7 +119,7 @@ export const projects = [
     id: 3,
     title: "WorldlnkGSM Dahsboard and MArketPlace",
     des: "Responsive React application for convenient phone repair specialists to order and download software.",
-    img: MealOrderingApp,
+    img: "",
     iconLists: [React, Tailwind],
     link: "Link available on request",
   },
@@ -127,7 +127,7 @@ export const projects = [
     id: 4,
     title: "MeanderAfrica Safaris Website",
     des: "React website to help the organization expand their online presence.",
-    img: MealOrderingApp,
+    img: "",
     iconLists: [React, Tailwind],
     link: "Link available on request",
   },
@@ -169,6 +169,12 @@ export const companies = [
     name: "SENTRY",
     img: Sentry,
     nameImg: SentryName,
+  },
+  {
+    id: 7,
+    name: "React",
+    img: "",
+    nameImg: "",
   },
 ];
 
