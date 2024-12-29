@@ -6,7 +6,7 @@ import Image from "next/image";
 const Avatar = () => (
   <Image
     className="p-1 w-8 h-8 rounded-lg origin-top-left rotate-12"
-    src={Theuri}
+    src={"`Theuri`"}
     alt="Theuri"
     loading="lazy"
   />
@@ -22,7 +22,7 @@ const Footer = () => {
         <p className="text-white-200 mt-4 sm:mt-6 md:mt-8 mb-5 text-center">
           Send me an email and I'll reach out to you asap!
         </p>
-        <a href="mailto:theuridavid56@gmail.com">
+        <a href="mailto:kiprutobrysonn@gmail.com">
           <MagicButton
             title="Get in touch"
             icon={<Avatar />}

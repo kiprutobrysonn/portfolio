@@ -1,10 +1,10 @@
 import React from "react";
 
 const downloadResume = () => {
-  const pdfUrl = "theuris_resume.pdf";
+  const pdfUrl = "bryce_resume.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "theuris_resume.pdf";
+  link.download = "bryce_resume.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

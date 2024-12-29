@@ -29,7 +29,10 @@ import GitHub from "../public/git.svg";
 import Grid from "../public/grid.svg";
 import Next from "../public/next.svg";
 import React from "../public/re.svg";
+import ReactImages from "../public/react.png";
 import My from "../public/b5.svg";
+import MeanderImage from "../public/meanders2.png";
+import Worldlink from "../public/market_worldlink.png";
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -68,8 +71,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Farwell Innovations Ltd, Comtel Integrators Africa",
-    description: "Web-Development Internships",
+    title: "Usalama Technologies Kenya",
+    description: "SofwareEngineering  Internship",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     titleClassName: "justify-start",
     img: Grid,
@@ -119,15 +122,15 @@ export const projects = [
     id: 3,
     title: "WorldlnkGSM Dahsboard and MArketPlace",
     des: "Responsive React application for convenient phone repair specialists to order and download software.",
-    img: "",
-    iconLists: [React, Tailwind],
+    img: Worldlink,
+    iconLists: [React, Tailwind, Laravel],
     link: "Link available on request",
   },
   {
     id: 4,
     title: "MeanderAfrica Safaris Website",
     des: "React website to help the organization expand their online presence.",
-    img: "",
+    img: MeanderImage,
     iconLists: [React, Tailwind],
     link: "Link available on request",
   },
@@ -174,7 +177,7 @@ export const companies = [
     id: 7,
     name: "React",
     img: "",
-    nameImg: "",
+    nameImg: React,
   },
 ];
 
@@ -182,7 +185,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer Intern",
-    desc: "Comtel Integrators Africa - Assisted in the development of a web-based platform using React(NextJs) & Appwrite(BaaS), testing API endpoints, unit tests, code optimization, & maintaining, updating, and upgrading the company's website & designs.",
+    desc: "Usalama Technologies - Assisted in the development of a web-based platform using React(NextJs) & Appwrite(BaaS), testing API endpoints, unit tests, code optimization, & maintaining, updating, and upgrading the company's website & designs.",
     className: "md:col-span-2",
     thumbnail: WorkExperienceOne,
   },
@@ -198,7 +201,7 @@ export const workExperience = [
 export const education = [
   {
     id: 1,
-    title: "BSC Computer Science",
+    title: "BSC Software Engineering",
     desc: "Multimedia University of Kenya, Nairobi | AUGUST 2021 - APRIL 2025 | Ongoing",
     className: "md:col-span-2",
     thumbnail: EducationTwo,
@@ -206,7 +209,7 @@ export const education = [
   {
     id: 2,
     title: "Secondary Education",
-    desc: "Utumishi Boys Academy | JANUARY 2017 - APRIL 2021 | KCSE: A- ",
+    desc: "Tenwek Boys HighSchool | JANUARY 2017 - APRIL 2021 | KCSE: A- ",
     className: "md:col-span-2",
     thumbnail: EducationOne,
   },
@@ -216,16 +219,16 @@ export const socialMedia = [
   {
     id: 1,
     img: GitHub,
-    link: "https://github.com/iamtheuri",
+    link: "https://github.com/kiprutobrysonn",
   },
   {
     id: 2,
     img: Twitter,
-    link: "https://x.com/iamtheuri_",
+    link: "https://x.com/kip_bryce",
   },
   {
     id: 3,
     img: LinkedIn,
-    link: "https://www.linkedin.com/in/iamtheuri",
+    link: "https://www.linkedin.com/in/kiprutobryson",
   },
 ];
