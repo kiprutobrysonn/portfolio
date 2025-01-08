@@ -6,7 +6,7 @@ import GridGlobe from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import Image from 'next/image';
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -37,7 +37,6 @@ export const BentoGridItem = ({
   titleClassName,
   spareImg,
   priority = false,
-
 }: {
   className?: string;
   id: number;
@@ -48,7 +47,6 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
   priority?: boolean;
-
 }) => {
   const leftLists = ["Python", "Laravel", "Wordpress", "React"];
   const rightLists = ["MySQL", "NoSQL", "Linux", "Git"];
@@ -65,7 +63,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "theuridavid56@gmail.com";
+    const text = "kiprutobrysonn.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

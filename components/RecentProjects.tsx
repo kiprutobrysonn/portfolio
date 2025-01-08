@@ -4,14 +4,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 import BackgroundImage from "../public/bg.png";
 import { PinContainer } from "./ui/Pin";
 import { projects } from "@/data";
-import Image from 'next/image';
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
     <section className="py-20 select-none" id="projects">
       <h1 className="heading">
-        Recent{" "}
-        <span className="text-purple">Projects</span>
+        Recent <span className="text-purple">Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -19,16 +18,17 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.title}
-              href="https://x.com/iamtheuri_"
-            >
+            <PinContainer title={item.title} href="https://x.com/bryce_kip">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <Image src={BackgroundImage} alt={item.title} loading="lazy"/>
+                  <Image
+                    src={BackgroundImage}
+                    alt={item.title}
+                    loading="lazy"
+                  />
                 </div>
                 <Image
                   src={item.img}

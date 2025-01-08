@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://theuri.vercel.app/sitemap.xml
+Sitemap: https://bryson-portfolio.vercel.app/sitemap.xml
