@@ -201,15 +201,15 @@ export const workExperience = [
 export const education = [
   {
     id: 1,
-    title: "BSC Software Engineering",
-    desc: "Multimedia University of Kenya, Nairobi | AUGUST 2021 - APRIL 2025 | Ongoing",
+    title: "MSC Comptuer Science",
+    desc: "Aston Univeristy | Sept 2023 - APRIL 2024 | Completed",
     className: "md:col-span-2",
     thumbnail: EducationTwo,
   },
   {
     id: 2,
-    title: "Secondary Education",
-    desc: "Tenwek Boys HighSchool | JANUARY 2017 - APRIL 2021 | KCSE: A- ",
+    title: "BSC Software Engineering",
+    desc: "Multimedia University of Kenya, Nairobi | SEPT 2019 - APRIL 2022 | Completed",
     className: "md:col-span-2",
     thumbnail: EducationOne,
   },
