@@ -199,13 +199,13 @@ export const workExperience = [
 ];
 
 export const education = [
-  {
-    id: 1,
-    title: "MSC Comptuer Science",
-    desc: "Aston Univeristy | Sept 2023 - APRIL 2024 | Completed",
-    className: "md:col-span-2",
-    thumbnail: EducationTwo,
-  },
+  // {
+  //   id: 1,
+  //   title: "MSC Comptuer Science",
+  //   desc: "Aston Univeristy | Sept 2023 - APRIL 2024 | Completed",
+  //   className: "md:col-span-2",
+  //   thumbnail: EducationTwo,
+  // },
   {
     id: 2,
     title: "BSC Software Engineering",
